@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
                     tablebody.innerHTML = '<td colspan="5"> Actualmente no hay registros </td>';
                     return; //Evitamos que se ejecute el resto del codigo
                 }
-                categories.array.forEach((cat) => {
+                categories.forEach((cat) => {
                     const tr = document.createElement("tr"); //Se crea un elemento con js
                     tr.innerHTML = `
                     <td>${cat.idCategoria}</td>

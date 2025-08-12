@@ -1,7 +1,7 @@
 const API_URL = "http://localhost:8080/api/category";
 
 export async function getCategories(){
-    const res = await fetch(`${API_URL}/getDataGategories`);
+    const res = await fetch(`${API_URL}/getDataCategories`);
     return res.json();
 
 }
